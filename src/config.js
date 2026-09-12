@@ -12,7 +12,7 @@
 module.exports = {
   // Base URL of your deployed frontend. Point this at your Vercel
   // production domain. The app will load `${BASE_URL}${CHAT_PATH}`.
-  BASE_URL: process.env.QUSCER_BASE_URL || "https://app.quscer.com",
+  BASE_URL: process.env.QUSCER_BASE_URL || "https://quscer-frontend.vercel.app",
 
   // Path to the chat experience. Today this is the tenant chat page
   // (requires normal Quscer OS login). Swap this to the future
